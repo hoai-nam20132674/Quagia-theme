@@ -4412,6 +4412,14 @@ ul.pagination, .pagination .pagination, .pagination {
     transform: translate3d(0, -2px, 0);
 }
 
+.categorie-item {
+    /* border: 1px solid; */
+    webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}
+
 .product-item .product-button {
     background-color:rgba(255, 255, 255,0.6);
     border-radius:3px;
@@ -4658,6 +4666,15 @@ ul.pagination, .pagination .pagination, .pagination {
     -webkit-transition: all 350ms ease-out 0s;
 }
 
+.categorie-box .categorie-img-wrap img {
+    
+    border: 2px solid #dbab04;
+}
+
+.categorie-box .categorie-img-wrap {
+    padding: 15px;
+}
+
 .blog-box:hover .blog-img-wrap img {
     transform: scale(1.03);
     -moz-transform: scale(1.03);
@@ -4682,12 +4699,11 @@ ul.pagination, .pagination .pagination, .pagination {
 }
 
 .blog-carousel .blog-box .blog-box-content .blog-box-content-inner {
-    background: #1f1f1fe0;
+    background: #1f1f1fad;
     border: 1px solid #333;
     padding: 10px;
     position: absolute;
     width: 100%;
-    top: 50%;
     transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -6452,7 +6468,7 @@ button.apply-coupon-code {
 }
 
 .intro ul.cat-menu li a:hover {
-    background-color: #eee;
+    background-color: #dbb600;
     color: #000;
 }
 
