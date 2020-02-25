@@ -6417,10 +6417,12 @@ button.apply-coupon-code {
 }
 .intro ul.cat-menu li a img {
     display: block;
-    width: 40px;
+    /*width: 40px;*/
     margin: 0px auto;
 }
-.intro ul.cat-menu li a{padding: 7px 0px!important;}
+.intro ul.cat-menu li a{
+    /*padding: 7px 0px!important;*/
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1230px) {
 .intro ul.cat-menu li a img {
